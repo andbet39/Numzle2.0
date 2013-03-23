@@ -197,6 +197,8 @@
         bonusB=bonusB*(b.bonus+1);
    }
     
+    NSLog(@"bonusA = %d",bonusA);
+    NSLog(@"bonusB = %d",bonusB);
     
     if (risultato<=targetNum) {
         adj_differenza=(float)risultato/(float)targetNum ;
@@ -208,12 +210,17 @@
         adj_differenza=0;
     }
     
-    if (adj_differenza>=1) {
-        adj_differenza=1.5;
+    if (adj_differenza>=0.999) {
+        adj_differenza=2.0;
     }
+    
+    NSLog(@"adj_differenza :%f",adj_differenza);
     
     int valorePrimoOperando = [bubbleOperandA count]*5*bonusA;
     int valoreSecondoOperando = [bubbleOperandB count]*5*bonusB;
+    
+    NSLog(@"valorePrimoOperando :%d",valorePrimoOperando);
+    NSLog(@"valoreSecondoOperando :%d",valoreSecondoOperando);
     
     int valoreOperatore = 0;
     
