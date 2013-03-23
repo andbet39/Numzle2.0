@@ -10,11 +10,14 @@
 #import "GameManager.h"
 #import "CCViewController.h"
 #import "GAI.h"
+#import "ChatViewController.h"
+
 
 #define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 
 @interface MPMatchDetailViewController ()
 {
+    NSMutableDictionary *playersDisplayName;
     
 }
 @end
@@ -195,6 +198,9 @@
                 
                 player1Label.text =p1.displayName;
                 player2Label.text =p2.displayName;
+                
+                
+                
             }else
             {
                 
@@ -202,6 +208,13 @@
                 
                 
                 player1Label.text =p1.displayName;
+                
+            }
+            
+            playersDisplayName = [[NSMutableDictionary alloc]init];
+            for (GKPlayer * pl  in players) {
+                
+                [playersDisplayName addEntriesFromDictionary:@{pl.playerID: pl.displayName   }];
                 
             }
             
@@ -300,6 +313,15 @@
     if ([segue.identifier isEqualToString:@"startGame"]) {
         CCViewController * destination = segue.destinationViewController;
         [destination setGameOverDelegate:self];
+        
+    }
+    
+    if ([segue.identifier isEqualToString:@"chatSegue"]) {
+        
+        ChatViewController *destination = segue.destinationViewController;
+   
+        
+        [destination initWithChatIdentifier: selectedMatch.matchID andPlayerName:playersDisplayName];
         
     }
     
@@ -471,5 +493,10 @@
 - (void)viewDidUnload {
     [self setLeaveNotInTurnButton:nil];
     [super viewDidUnload];
+}
+- (IBAction)chatButtonAction:(id)sender {
+    
+    [self performSegueWithIdentifier:@"chatSegue" sender:self];
+    
 }
 @end

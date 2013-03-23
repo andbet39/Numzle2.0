@@ -188,6 +188,8 @@
 		B57494F716F2475400978CD7 /* friendsNavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57494F516F2475400978CD7 /* friendsNavBar@2x.png */; };
 		B57494FC16F248FF00978CD7 /* FacebookHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = B57494F816F248FF00978CD7 /* FacebookHeader.png */; };
 		B57494FD16F248FF00978CD7 /* FacebookHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57494F916F248FF00978CD7 /* FacebookHeader@2x.png */; };
+		B587E09816FDD68E003B3D62 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B587E09716FDD68E003B3D62 /* ChatViewController.m */; };
+		B587E09B16FDE8A5003B3D62 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B587E09A16FDE8A5003B3D62 /* ChatCell.m */; };
 		B5A3A14A16EE5A9100D5BB83 /* displayBackground-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3A14916EE5A9100D5BB83 /* displayBackground-hd.png */; };
 		B5A3A14C16EE5C2400D5BB83 /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3A14B16EE5C2400D5BB83 /* background-hd.png */; };
 		B5A3A15216EE5D9300D5BB83 /* buttonUguale-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3A15116EE5D9300D5BB83 /* buttonUguale-hd.png */; };
@@ -901,6 +903,10 @@
 		B57494F516F2475400978CD7 /* friendsNavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friendsNavBar@2x.png"; sourceTree = "<group>"; };
 		B57494F816F248FF00978CD7 /* FacebookHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FacebookHeader.png; sourceTree = "<group>"; };
 		B57494F916F248FF00978CD7 /* FacebookHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FacebookHeader@2x.png"; sourceTree = "<group>"; };
+		B587E09616FDD68E003B3D62 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		B587E09716FDD68E003B3D62 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		B587E09916FDE8A5003B3D62 /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		B587E09A16FDE8A5003B3D62 /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
 		B5A3A14916EE5A9100D5BB83 /* displayBackground-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "displayBackground-hd.png"; sourceTree = "<group>"; };
 		B5A3A14B16EE5C2400D5BB83 /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hd.png"; sourceTree = "<group>"; };
 		B5A3A15116EE5D9300D5BB83 /* buttonUguale-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonUguale-hd.png"; sourceTree = "<group>"; };
@@ -1323,6 +1329,8 @@
 				B5B071C416CEE6850090A5D0 /* avatarCell.m */,
 				65B6159D16D2691B008FEDF9 /* FacebookFriendCell.h */,
 				65B6159E16D2691B008FEDF9 /* FacebookFriendCell.m */,
+				B587E09916FDE8A5003B3D62 /* ChatCell.h */,
+				B587E09A16FDE8A5003B3D62 /* ChatCell.m */,
 			);
 			name = TableCell;
 			sourceTree = "<group>";
@@ -1471,6 +1479,15 @@
 			name = Analytics;
 			sourceTree = "<group>";
 		};
+		B587E05C16FDD674003B3D62 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B587E09616FDD68E003B3D62 /* ChatViewController.h */,
+				B587E09716FDD68E003B3D62 /* ChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 		B5A3A14F16EE5CEA00D5BB83 /* hd */ = {
 			isa = PBXGroup;
 			children = (
@@ -1558,6 +1575,7 @@
 		B5F09E4F16C41FB600000E47 /* Numzle */ = {
 			isa = PBXGroup;
 			children = (
+				B587E05C16FDD674003B3D62 /* Chat */,
 				B541ED2116F7CF9F00F1436D /* Analytics */,
 				B5F09E6116C41FB600000E47 /* MainStoryboard.storyboard */,
 				65B6169616D91A89008FEDF9 /* TutorialController */,
@@ -2396,6 +2414,8 @@
 				65B616D516D91B66008FEDF9 /* FirstViewController.mm in Sources */,
 				65B616D816D91B87008FEDF9 /* SecondViewController.mm in Sources */,
 				65B616DB16D91B97008FEDF9 /* ThirdViewController.mm in Sources */,
+				B587E09816FDD68E003B3D62 /* ChatViewController.m in Sources */,
+				B587E09B16FDE8A5003B3D62 /* ChatCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

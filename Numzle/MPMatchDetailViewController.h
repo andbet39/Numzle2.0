@@ -48,5 +48,6 @@
 - (IBAction)declineButtonAction:(id)sender;
 - (IBAction)leaveNotInTurnButtonAction:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *leaveNotInTurnButton;
+- (IBAction)chatButtonAction:(id)sender;
 
 @end

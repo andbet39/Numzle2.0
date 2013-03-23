@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3104" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yfD-gJ-vp5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yfD-gJ-vp5">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backgroundUIVIEWnew@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="YpF-z3-Og8">
@@ -112,7 +112,7 @@
             <objects>
                 <viewController id="LSr-2q-e8x" customClass="ConfigViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XsW-7a-M4r">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundSettings.png" translatesAutoresizingMaskIntoConstraints="NO" id="xDi-bu-50I">
@@ -264,7 +264,7 @@
             <objects>
                 <viewController storyboardIdentifier="First View" id="jRI-9V-zVe" customClass="FirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vbl-pZ-3yL">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backgroundUIVIEWnew.png" translatesAutoresizingMaskIntoConstraints="NO" id="BOo-Bf-dbF">
@@ -296,7 +296,7 @@
             <objects>
                 <viewController storyboardIdentifier="Second View" id="eko-tQ-pu4" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J9Y-aP-Ru0">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="qhV-fJ-kQO"/>
@@ -345,7 +345,7 @@ can in 90 seconds which result
             <objects>
                 <viewController storyboardIdentifier="Third View" id="FO7-eO-n3R" customClass="ThirdViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MgA-YS-ydu">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="u7L-Oq-qxu"/>
@@ -394,7 +394,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController id="7H4-Ti-lX0" customClass="SelectAvatarViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aAF-eZ-rPj">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="GZG-cO-mvN"/>
@@ -460,7 +460,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController id="ZlU-SV-gZK" customClass="MultiPlayerInterfaceViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="egT-gH-zyl">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="TSE-iA-ryB"/>
@@ -645,7 +645,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController id="Z3w-Bx-CKX" customClass="InviteFriendViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bnw-GY-PqE">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="SpJ-TC-HsY"/>
@@ -774,7 +774,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController id="AhZ-iw-qWj" customClass="ScoreViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GXg-j6-abV">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nch-wy-5Ut">
@@ -803,12 +803,116 @@ after 3 turns win the match.</string>
             </objects>
             <point key="canvasLocation" x="688" y="617"/>
         </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="Qxe-fj-Qs8">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dg6-ta-jNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="fPz-TF-eNf" customClass="ChatViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dA7-Sj-EpH">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="NxU-ir-ccl"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="109" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="b3h-5u-cjP">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="467" type="user" id="Xqj-E8-bkl"/>
+                                </constraints>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="chatCellIdentifier" rowHeight="69" id="7hF-wv-ikx" customClass="ChatCell">
+                                        <rect key="frame" x="0.0" y="22" width="280" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="68"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CX6-Jh-C18"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRd-Wg-Otn">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="160" id="sar-a6-LJ1"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9q-nu-tzO">
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="54" type="user" id="Itx-Mh-NRM"/>
+                                                    </constraints>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                                                </textView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="Z9q-nu-tzO" firstAttribute="trailing" secondItem="7hF-wv-ikx" secondAttribute="trailing" type="default" id="1st-4c-8YH"/>
+                                            <constraint firstAttribute="bottom" secondItem="CX6-Jh-C18" secondAttribute="bottom" constant="1" type="user" id="4vL-OH-0hs"/>
+                                            <constraint firstItem="CX6-Jh-C18" firstAttribute="top" secondItem="7hF-wv-ikx" secondAttribute="top" type="user" id="DoT-GC-12y"/>
+                                            <constraint firstItem="CX6-Jh-C18" firstAttribute="top" secondItem="7hF-wv-ikx" secondAttribute="top" type="user" id="FGR-Xo-bRx"/>
+                                            <constraint firstItem="hRd-Wg-Otn" firstAttribute="leading" secondItem="7hF-wv-ikx" secondAttribute="leading" constant="11" id="Jfu-hA-uPf"/>
+                                            <constraint firstItem="CX6-Jh-C18" firstAttribute="leading" secondItem="7hF-wv-ikx" secondAttribute="leading" type="default" id="KTH-1B-mxF"/>
+                                            <constraint firstItem="CX6-Jh-C18" firstAttribute="centerY" secondItem="7hF-wv-ikx" secondAttribute="centerY" type="user" id="Qex-UQ-GrV"/>
+                                            <constraint firstItem="CX6-Jh-C18" firstAttribute="trailing" secondItem="7hF-wv-ikx" secondAttribute="trailing" type="default" id="RBx-zI-7xW"/>
+                                            <constraint firstItem="Z9q-nu-tzO" firstAttribute="top" secondItem="7hF-wv-ikx" secondAttribute="top" constant="15" type="user" id="dms-RZ-Fqv"/>
+                                            <constraint firstItem="Z9q-nu-tzO" firstAttribute="bottom" secondItem="7hF-wv-ikx" secondAttribute="bottom" type="user" id="mOw-q1-IXu"/>
+                                            <constraint firstItem="Z9q-nu-tzO" firstAttribute="leading" secondItem="7hF-wv-ikx" secondAttribute="leading" constant="30" type="user" id="mgP-ma-vbE"/>
+                                            <constraint firstItem="hRd-Wg-Otn" firstAttribute="top" secondItem="7hF-wv-ikx" secondAttribute="top" constant="2" id="v5W-sm-ITF"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageBackGround" destination="CX6-Jh-C18" id="huJ-GJ-b81"/>
+                                            <outlet property="textString" destination="Z9q-nu-tzO" id="q7n-eC-k91"/>
+                                            <outlet property="userLabel" destination="hRd-Wg-Otn" id="auY-bH-GnC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fPz-TF-eNf" id="dTS-1P-bad"/>
+                                    <outlet property="delegate" destination="fPz-TF-eNf" id="KBD-cu-8hv"/>
+                                </connections>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rEz-6u-7kB">
+                                <color key="backgroundColor" red="0.26274511218070984" green="0.19215688109397888" blue="0.27843138575553894" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NxU-ir-ccl" firstAttribute="top" secondItem="dA7-Sj-EpH" secondAttribute="top" type="default" id="0cx-Fd-Cgk"/>
+                            <constraint firstAttribute="bottom" secondItem="rEz-6u-7kB" secondAttribute="bottom" constant="6" id="40H-vA-DNR"/>
+                            <constraint firstItem="NxU-ir-ccl" firstAttribute="bottom" secondItem="dA7-Sj-EpH" secondAttribute="bottom" type="default" id="6Ma-PZ-cZF"/>
+                            <constraint firstItem="rEz-6u-7kB" firstAttribute="leading" secondItem="dA7-Sj-EpH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9XP-ik-Xi9"/>
+                            <constraint firstAttribute="trailing" secondItem="rEz-6u-7kB" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="AWI-Ct-HTN"/>
+                            <constraint firstAttribute="trailing" secondItem="b3h-5u-cjP" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QcG-Hr-LJw"/>
+                            <constraint firstAttribute="bottom" secondItem="b3h-5u-cjP" secondAttribute="bottom" constant="37" type="user" id="TWN-5S-fuY"/>
+                            <constraint firstItem="NxU-ir-ccl" firstAttribute="leading" secondItem="dA7-Sj-EpH" secondAttribute="leading" type="default" id="a9K-fW-OCI"/>
+                            <constraint firstItem="b3h-5u-cjP" firstAttribute="leading" secondItem="dA7-Sj-EpH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="lBM-aW-zwS"/>
+                            <constraint firstItem="b3h-5u-cjP" firstAttribute="top" secondItem="dA7-Sj-EpH" secondAttribute="top" type="user" id="qXR-ue-DxU"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="rEz-6u-7kB" secondAttribute="bottom" constant="5" type="user" id="th5-oN-Q0S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dUj-i2-LU0"/>
+                    <connections>
+                        <outlet property="chatTable" destination="b3h-5u-cjP" id="YWx-nh-ca7"/>
+                        <outlet property="tfEntry" destination="rEz-6u-7kB" id="yk2-ki-lgK"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1152" y="1396"/>
+        </scene>
         <!--Match Detail View Controller-->
         <scene sceneID="hEn-qZ-jwU">
             <objects>
                 <viewController id="UlC-mG-HoK" customClass="MPMatchDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q03-D5-6yf">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="ACk-1L-px8"/>
@@ -928,9 +1032,6 @@ after 3 turns win the match.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Turn 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="an8-9T-obh">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="KTD-bO-ddl"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1021,6 +1122,22 @@ after 3 turns win the match.</string>
                                     <constraint firstAttribute="height" constant="2" type="user" id="onU-oj-f8Z"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIe-fE-sCF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="pqA-7p-0MO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="chat">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chatButtonAction:" destination="UlC-mG-HoK" eventType="touchUpInside" id="Kgn-tI-J0Q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -1029,34 +1146,34 @@ after 3 turns win the match.</string>
                             <constraint firstItem="nos-hg-o2Z" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="256" type="user" id="2CB-m2-tzj"/>
                             <constraint firstItem="BDn-Or-lID" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="24" id="2IX-qM-2pI"/>
                             <constraint firstItem="5Uj-C0-lAv" firstAttribute="bottom" secondItem="24j-7w-hZ6" secondAttribute="bottom" type="default" id="3q4-bw-ZaS"/>
+                            <constraint firstItem="dIe-fE-sCF" firstAttribute="baseline" secondItem="Fea-nW-Qwn" secondAttribute="baseline" type="default" id="3xs-cM-awl"/>
                             <constraint firstItem="0sf-Tg-tfK" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="325" type="user" id="4AS-E0-hO1"/>
                             <constraint firstItem="QIC-aF-QzF" firstAttribute="leading" secondItem="5Uj-C0-lAv" secondAttribute="leading" type="default" id="4Iw-AE-pDg"/>
                             <constraint firstAttribute="bottom" secondItem="ACk-1L-px8" secondAttribute="bottom" type="user" id="4lg-NX-mGk"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="leading" secondItem="an8-9T-obh" secondAttribute="leading" type="default" id="4ye-20-LCO"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="leading" secondItem="luE-07-14V" secondAttribute="leading" type="default" id="50B-JT-zce"/>
                             <constraint firstItem="0sf-Tg-tfK" firstAttribute="trailing" secondItem="06f-uZ-84T" secondAttribute="trailing" type="default" id="50d-Za-oeV"/>
-                            <constraint firstItem="BDn-Or-lID" firstAttribute="centerX" secondItem="ACk-1L-px8" secondAttribute="centerX" type="default" id="5qv-jQ-2on"/>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="leading" secondItem="7RH-PN-TOK" secondAttribute="leading" type="default" id="8aH-RT-0DJ"/>
                             <constraint firstItem="nos-hg-o2Z" firstAttribute="leading" secondItem="4gi-7J-7z7" secondAttribute="leading" type="default" id="8o0-r5-SrX"/>
                             <constraint firstItem="VSV-MS-hm0" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="363" type="user" id="9ks-Nn-mwe"/>
                             <constraint firstItem="M9F-aA-HcK" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="11" id="A9K-s0-Lq8"/>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="baseline" secondItem="yoM-O7-rqB" secondAttribute="baseline" type="default" id="Aij-tG-hIH"/>
-                            <constraint firstItem="FfT-Xi-eVI" firstAttribute="trailing" secondItem="0sf-Tg-tfK" secondAttribute="trailing" type="default" id="DAb-OS-EaF"/>
+                            <constraint firstItem="VSV-MS-hm0" firstAttribute="trailing" secondItem="0sf-Tg-tfK" secondAttribute="trailing" type="default" id="AkF-j4-Z0r"/>
+                            <constraint firstItem="M9F-aA-HcK" firstAttribute="centerX" secondItem="ACk-1L-px8" secondAttribute="centerX" type="default" id="Dup-p6-xWa"/>
                             <constraint firstItem="an8-9T-obh" firstAttribute="baseline" secondItem="G6F-oU-hEq" secondAttribute="baseline" type="default" id="G7z-DH-qY9"/>
+                            <constraint firstItem="dIe-fE-sCF" firstAttribute="leading" secondItem="luE-07-14V" secondAttribute="leading" type="default" id="HC8-nQ-q6m"/>
                             <constraint firstItem="06f-uZ-84T" firstAttribute="baseline" secondItem="4gi-7J-7z7" secondAttribute="baseline" type="default" id="JUq-ih-WCU"/>
                             <constraint firstItem="G6F-oU-hEq" firstAttribute="centerX" secondItem="eyE-4p-5Jh" secondAttribute="centerX" type="default" id="LpW-nU-Tmr"/>
                             <constraint firstItem="06f-uZ-84T" firstAttribute="trailing" secondItem="w2D-R4-x5Y" secondAttribute="trailing" type="default" id="Owe-fw-UTS"/>
                             <constraint firstItem="4gi-7J-7z7" firstAttribute="trailing" secondItem="Fea-nW-Qwn" secondAttribute="trailing" type="default" id="P8T-2L-Ozb"/>
                             <constraint firstItem="M9F-aA-HcK" firstAttribute="trailing" secondItem="XwN-GP-9RD" secondAttribute="trailing" type="default" id="Pd2-WT-Iba"/>
                             <constraint firstItem="4gi-7J-7z7" firstAttribute="leading" secondItem="v1b-CB-IGB" secondAttribute="leading" type="default" id="Q7N-eg-G3f"/>
-                            <constraint firstItem="Fea-nW-Qwn" firstAttribute="baseline" secondItem="0sf-Tg-tfK" secondAttribute="baseline" type="default" id="QZE-Am-DGs"/>
                             <constraint firstItem="5Uj-C0-lAv" firstAttribute="top" secondItem="24j-7w-hZ6" secondAttribute="top" type="user" id="QmB-LW-HZZ"/>
-                            <constraint firstItem="G6F-oU-hEq" firstAttribute="leading" secondItem="Q03-D5-6yf" secondAttribute="leading" constant="26" id="SGL-eR-wCq"/>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="trailing" secondItem="7RH-PN-TOK" secondAttribute="trailing" type="default" id="SMc-SU-s47"/>
                             <constraint firstItem="QIC-aF-QzF" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="363" type="user" id="SUN-eu-MT0"/>
                             <constraint firstItem="v1b-CB-IGB" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="301" type="user" id="UiK-Dn-CuG"/>
+                            <constraint firstItem="dIe-fE-sCF" firstAttribute="centerX" secondItem="268-no-gEl" secondAttribute="centerX" type="default" id="Unb-n8-6YH"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="trailing" secondItem="luE-07-14V" secondAttribute="trailing" type="default" id="Upm-g2-FfD"/>
-                            <constraint firstItem="268-no-gEl" firstAttribute="centerX" secondItem="v1b-CB-IGB" secondAttribute="centerX" type="default" id="WPk-1E-LjA"/>
                             <constraint firstItem="eyE-4p-5Jh" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="232" type="user" id="ZfU-ug-tmV"/>
                             <constraint firstItem="XwN-GP-9RD" firstAttribute="centerX" secondItem="7RH-PN-TOK" secondAttribute="centerX" type="default" id="Znc-bF-IBR"/>
                             <constraint firstItem="G6F-oU-hEq" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="189" type="user" id="ZoN-s6-V9D"/>
@@ -1070,19 +1187,22 @@ after 3 turns win the match.</string>
                             <constraint firstItem="268-no-gEl" firstAttribute="top" secondItem="24j-7w-hZ6" secondAttribute="top" type="user" id="czE-3m-Vpf"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="trailing" secondItem="an8-9T-obh" secondAttribute="trailing" type="default" id="dDD-R8-HYT"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="232" type="user" id="eRl-ZZ-gEc"/>
+                            <constraint firstItem="G6F-oU-hEq" firstAttribute="leading" secondItem="5Uj-C0-lAv" secondAttribute="leading" type="default" id="frd-58-orM"/>
                             <constraint firstItem="24j-7w-hZ6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Q03-D5-6yf" secondAttribute="leading" constant="20" type="user" id="g0P-K8-ba3"/>
                             <constraint firstItem="nos-hg-o2Z" firstAttribute="trailing" secondItem="YsF-AX-JdT" secondAttribute="trailing" type="default" id="gZR-SM-tX1"/>
                             <constraint firstItem="an8-9T-obh" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="189" type="user" id="giJ-Ad-jUD"/>
                             <constraint firstItem="UIL-3U-z0F" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="71" id="h0P-Xm-9XU"/>
                             <constraint firstItem="7RH-PN-TOK" firstAttribute="baseline" secondItem="an8-9T-obh" secondAttribute="baseline" type="default" id="hfd-F2-enw"/>
+                            <constraint firstItem="UIL-3U-z0F" firstAttribute="leading" secondItem="Q03-D5-6yf" secondAttribute="leading" constant="13" id="igr-kb-gdZ"/>
                             <constraint firstItem="ACk-1L-px8" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" type="user" id="ipS-Po-sQj"/>
                             <constraint firstItem="4gi-7J-7z7" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="277" type="user" id="lVm-x1-frN"/>
                             <constraint firstItem="eyE-4p-5Jh" firstAttribute="leading" secondItem="nos-hg-o2Z" secondAttribute="leading" type="default" id="lrV-Dw-4re"/>
                             <constraint firstItem="FfT-Xi-eVI" firstAttribute="leading" secondItem="VSV-MS-hm0" secondAttribute="leading" type="default" id="lu5-cb-iZt"/>
+                            <constraint firstItem="dIe-fE-sCF" firstAttribute="baseline" secondItem="0sf-Tg-tfK" secondAttribute="baseline" type="default" id="m2b-wJ-3fc"/>
                             <constraint firstItem="06f-uZ-84T" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="277" type="user" id="m7D-Zx-w5a"/>
-                            <constraint firstItem="QIC-aF-QzF" firstAttribute="leading" secondItem="G6F-oU-hEq" secondAttribute="leading" type="default" id="nTI-oK-Lgn"/>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="232" type="user" id="nfU-W1-k99"/>
                             <constraint firstItem="0sf-Tg-tfK" firstAttribute="leading" secondItem="06f-uZ-84T" secondAttribute="leading" type="default" id="pMH-ZV-G0d"/>
+                            <constraint firstItem="dIe-fE-sCF" firstAttribute="centerX" secondItem="v1b-CB-IGB" secondAttribute="centerX" type="default" id="pSO-YP-ej0"/>
                             <constraint firstItem="24j-7w-hZ6" firstAttribute="bottom" secondItem="268-no-gEl" secondAttribute="bottom" type="default" id="pcK-TP-Sfp"/>
                             <constraint firstItem="ACk-1L-px8" firstAttribute="leading" secondItem="Q03-D5-6yf" secondAttribute="leading" type="default" id="q8P-iv-nYe"/>
                             <constraint firstItem="QIC-aF-QzF" firstAttribute="top" secondItem="24j-7w-hZ6" secondAttribute="top" type="user" id="rqp-W7-v55"/>
@@ -1123,6 +1243,7 @@ after 3 turns win the match.</string>
                         <outlet property="turn3Label" destination="luE-07-14V" id="hqY-ni-D9T"/>
                         <outlet property="winLostLabel" destination="BDn-Or-lID" id="Izb-PU-4Af"/>
                         <segue destination="YpL-q9-bto" kind="modal" identifier="startGame" id="EV2-9S-XFy"/>
+                        <segue destination="fPz-TF-eNf" kind="push" identifier="chatSegue" id="R5W-iu-vRf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RcW-PM-acN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1134,7 +1255,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController wantsFullScreenLayout="YES" id="eO3-wp-rv6" customClass="CCViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3BY-JJ-n6a">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1153,7 +1274,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController id="ke5-Sc-vzy" customClass="GameOverViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="urW-Yi-Gjr">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-EI-J1P">
@@ -1340,7 +1461,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController wantsFullScreenLayout="YES" id="YpL-q9-bto" customClass="CCViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RRl-Dm-kwl">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1359,7 +1480,7 @@ after 3 turns win the match.</string>
             <objects>
                 <viewController id="Q8S-oe-5Dz" customClass="MPGameOverViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hnz-pN-ALq">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="4wh-FD-erE">
@@ -1571,6 +1692,23 @@ after 3 turns win the match.</string>
         <class className="CCViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CCViewController.h"/>
         </class>
+        <class className="ChatCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChatCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageBackGround" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="textString" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="userLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ChatViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChatViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="backgroundTap:"/>
+                <relationship kind="action" name="textFieldDoneEditing:"/>
+                <relationship kind="outlet" name="chatTable" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="tfEntry" candidateClass="UITextField"/>
+            </relationships>
+        </class>
         <class className="ConfigViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ConfigViewController.h"/>
             <relationships>
@@ -1637,6 +1775,7 @@ after 3 turns win the match.</string>
             <relationships>
                 <relationship kind="action" name="acceptButtonAction:"/>
                 <relationship kind="action" name="backButtonAction:"/>
+                <relationship kind="action" name="chatButtonAction:"/>
                 <relationship kind="action" name="declineButtonAction:"/>
                 <relationship kind="action" name="leaveButton:"/>
                 <relationship kind="action" name="leaveNotInTurnButtonAction:"/>
@@ -1764,7 +1903,7 @@ after 3 turns win the match.</string>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="K69-ZB-meO"/>
