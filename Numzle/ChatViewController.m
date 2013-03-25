@@ -9,6 +9,10 @@
 #import "ChatViewController.h"
 #import "ChatCell.h"
 #import <GameKit/GameKit.h>
+#import "InAppHelper.h"
+#import "GAI.h"
+
+
 
 #define TABBAR_HEIGHT 0
 #define TEXTFIELD_HEIGHT 70.0f
@@ -26,12 +30,13 @@
     NSString * className;
     NSString * userID;
     
-
+    
 
 }
 
 @property(nonatomic,strong)NSString * chatIdentifier;
 @property(nonatomic,strong)NSDictionary * playersName;
+@property(readwrite)bool bannerIsVisible;
 
 
 
@@ -42,13 +47,34 @@
 
 
 @synthesize tfEntry;
--(void)customizeIntrface
-{
-
+-(void)customizeInterface{
+    
+    UIImage * navigationBarImage =[UIImage imageNamed:@"navigationBarWithTitle"];
+    [self.navigationController.navigationBar setBackgroundImage:navigationBarImage forBarMetrics:UIBarMetricsDefault];
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    UIImage *backBtnImage = [UIImage imageNamed:@"backButton"]  ;
+    [backBtn setBackgroundImage:backBtnImage forState:UIControlStateNormal];
+    [backBtn addTarget:self action:@selector(backButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+    backBtn.frame = CGRectMake(0, 0, 68, 32);
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:backBtn] ;
+    self.navigationItem.leftBarButtonItem = backButton;
+    
+    
+ 
+    
     
 }
+
+- (IBAction)backButtonAction:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+
 -(void)initWithChatIdentifier:(NSString*)identifier andPlayerName:(NSDictionary*)players
 {
+
 
 
     self.chatIdentifier=identifier;
@@ -56,7 +82,7 @@
     
     //self.title = identifier;
     
-
+    [self customizeInterface];
 
 }
 
@@ -71,6 +97,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.bannerIsVisible =false;
+    [self.bannerView setDelegate:self];
+    [self layoutBanners];
 
     tfEntry.delegate = self;
     tfEntry.clearButtonMode = UITextFieldViewModeWhileEditing;
@@ -87,8 +117,9 @@
         [chatTable addSubview:view];
         _refreshHeaderView = view;
     }
-    
-    [self logFont];
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Chat Screen"];
+    //[self logFont];
     
 }
 
@@ -213,7 +244,14 @@
         [cell.textString sizeToFit];
     
     NSString * name = [self.playersName objectForKey:[chatData[row] objectForKey:@"UserID"]];
-        cell.userLabel.text = name;
+    NSDate *theDate = [[chatData objectAtIndex:row] objectForKey:@"date"];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"HH:mm a"];
+    NSString *timeString = [formatter stringFromDate:theDate];
+    
+    
+    cell.userLabel.text = [NSString stringWithFormat:@"%@ at %@",name,timeString];
+    
     
     if ([self tableView:nil numberOfRowsInSection:indexPath.section]==indexPath.row+1) {
         [cell.imageBackGround setImage:[UIImage imageNamed:@"backgroundCellInferiore"]];
@@ -238,7 +276,7 @@
     CGSize labelSize = [cellText sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
     NSLog(@"TableCellSize = %f",labelSize.height);
     
-    return labelSize.height + 40;
+    return labelSize.height + 30;
 }
 
 - (void)reloadTableViewDataSource{
@@ -255,6 +293,80 @@
     _reloading = NO;
     [_refreshHeaderView egoRefreshScrollViewDataSourceDidFinishedLoading:chatTable];
     
+}
+
+
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
+{
+    NSLog(@"Banner view did load add");
+    
+    if (self.bannerIsVisible && ![InAppHelper sharedInstance].isPremiumVersion)
+    {
+        self.bannerIsVisible = NO;
+        /* [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
+         // Assumes the banner view is just off the bottom of the screen.
+         banner.frame = CGRectOffset(banner.frame, 0, +banner.frame.size.height);
+         [UIView commitAnimations];*/
+        
+        [self layoutBanners];
+        
+    }
+}
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner
+{
+    NSLog(@"Banner view did load add");
+    
+    if (!self.bannerIsVisible && ![InAppHelper sharedInstance].isPremiumVersion)
+    {
+        /*[UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+         // Assumes the banner view is just off the bottom of the screen.
+         banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
+         [UIView commitAnimations];;*/
+        
+        [self layoutBanners];
+        self.bannerIsVisible = YES;
+    }
+}
+
+- (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
+{
+    NSLog(@"Banner view is beginning an ad action");
+    BOOL shouldExecuteAction =YES;
+    
+    if (!willLeave && shouldExecuteAction)
+    {
+        if ([InAppHelper sharedInstance].isPremiumVersion) {
+            shouldExecuteAction=NO;
+            
+        }
+    }
+    return shouldExecuteAction;
+}
+
+-(void)layoutBanners{
+    NSLog(@"LayoutBanner : Is banner loaded :%d",self.bannerView.isBannerLoaded);
+    if (self.bannerView.bannerLoaded && ![[InAppHelper sharedInstance]isPremiumVersion]) {
+        [self shouldShowBanner:nil];
+        [self shouldShowBanner:nil];
+    }else{
+        [self shouldHideBanner:nil];
+        [self shouldHideBanner:nil];
+    }
+}
+
+- (void)shouldShowBanner:(UIButton *)sender {
+    [UIView animateWithDuration:0.3 animations:^{
+        [_bannerVerticalSpace setConstant:0];
+        [self.view layoutSubviews];
+    }];
+}
+
+- (void)shouldHideBanner:(UIButton *)sender {
+    [UIView animateWithDuration:0.3 animations:^{
+        [_bannerVerticalSpace setConstant:-50];
+        [self.view layoutSubviews];
+    }];
 }
 
 
@@ -375,6 +487,8 @@
     [self setChatTable:nil];
     [self setChatTable:nil];
  
+    [self setBannerVerticalSpace:nil];
+    [self setBannerView:nil];
     [super viewDidUnload];
 }
 @end

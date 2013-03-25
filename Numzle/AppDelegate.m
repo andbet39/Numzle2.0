@@ -12,6 +12,7 @@
 #import "GameCenterHelper.h"
 #import "SoundManager.h"
 #import "InAppHelper.h"
+#import "Appirater.h"
 
 #import "GAI.h"
 
@@ -83,8 +84,17 @@
     // Create tracker instance.
     id<GAITracker> tracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-39413113-1"];
     
+    [Appirater setAppId:@"600799660"];
+    [Appirater setDaysUntilPrompt:15];
+    [Appirater setUsesUntilPrompt:15];
+    [Appirater setSignificantEventsUntilPrompt:10];
+    [Appirater setTimeBeforeReminding:2];
+    [Appirater setDebug:NO];
+    
     
     [tracker sendView:@"Launched"];
+    
+    [Appirater appLaunched:YES];
     
     
 }
@@ -104,6 +114,8 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    
+    [Appirater appEnteredForeground:YES];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

@@ -11,6 +11,7 @@
 #import "CCViewController.h"
 #import "GAI.h"
 #import "ChatViewController.h"
+#import "Appirater.h"
 
 
 #define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
@@ -37,6 +38,8 @@
 @synthesize backButton;
 @synthesize imageView1,imageView2;
 @synthesize p1TotalLabel,p2TotalLabel;
+@synthesize chatButton;
+@synthesize chatBadg;
 
 -(void)customizeInterface{
     
@@ -75,15 +78,40 @@
     playButton.enabled=false;
     leaveNotInTurnButton.enabled=false;
     leaveButton.enabled=false;
+    chatButton.enabled=false;
     
     [self initWithSelectedMach];
     [self loadAndDisplayMatchData];
+
     
-    
+    [self retriveChatInfo];
 
 }
 
+-(void)retriveChatInfo{
 
+    
+
+    PFQuery * query = [PFQuery queryWithClassName:@"ChatMessage"];
+     
+    [query whereKey:@"ChatRoom" equalTo:selectedMatch.matchID];
+    [query whereKey:@"UserID" notEqualTo:[GKLocalPlayer localPlayer].playerID];
+    
+    
+    [query countObjectsInBackgroundWithBlock:^(int number, NSError *error) {
+        if (!error) {
+            if (number>0) {
+                
+                chatBadg = [[MKNumberBadgeView alloc]initWithFrame:CGRectMake(185, 123, 40, 40)];
+                [self.view addSubview:chatBadg];
+                self.chatBadg.value=number;
+
+            }
+        }
+    }];
+    
+    
+}
 
 -(void)initWithSelectedMach{
 
@@ -98,12 +126,14 @@
         
         [winLostLabel setText:@"YOU WIN!"];
         //[winLostLabel setTextColor:RGB(78, 195, 95)];
+        [Appirater userDidSignificantEvent:YES];
         
     }
     if (player2.matchOutcome==GKTurnBasedMatchOutcomeWon && [player2.playerID isEqualToString:[GKLocalPlayer localPlayer].playerID] ) {
         
         [winLostLabel setText:@"YOU WIN!"];
       //  [winLostLabel setTextColor:RGB(78, 195, 95)];
+        [Appirater userDidSignificantEvent:YES];
 
     }
     
@@ -283,6 +313,7 @@
                 
                 leaveNotInTurnButton.enabled=true;
                 leaveButton.enabled=true;
+                chatButton.enabled=true;
                 
                 //Risolve un crash
                 if (currentMatchData.p1ID) {
@@ -492,6 +523,7 @@
 }
 - (void)viewDidUnload {
     [self setLeaveNotInTurnButton:nil];
+    [self setChatButton:nil];
     [super viewDidUnload];
 }
 - (IBAction)chatButtonAction:(id)sender {

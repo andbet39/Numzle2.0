@@ -359,11 +359,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ConfigViewController.m"
-         timestampString = "385409803.285042"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "70"
-         endingLineNumber = "70"
+         startingLineNumber = "72"
+         endingLineNumber = "72"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -591,11 +591,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/MPMatchDetailViewController.mm"
-         timestampString = "385757347.051081"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "97"
-         endingLineNumber = "97"
+         startingLineNumber = "125"
+         endingLineNumber = "125"
          landmarkName = "-initWithSelectedMach"
          landmarkType = "5">
       </FileBreakpoint>
@@ -604,11 +604,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/MPMatchDetailViewController.mm"
-         timestampString = "385757347.051081"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "193"
-         endingLineNumber = "193"
+         startingLineNumber = "223"
+         endingLineNumber = "223"
          landmarkName = "-initWithSelectedMach"
          landmarkType = "5">
       </FileBreakpoint>
@@ -617,11 +617,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/MPMatchDetailViewController.mm"
-         timestampString = "385757347.051081"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "236"
-         endingLineNumber = "236"
+         startingLineNumber = "266"
+         endingLineNumber = "266"
          landmarkName = "-loadAndDisplayMatchData"
          landmarkType = "5">
       </FileBreakpoint>
@@ -643,11 +643,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/MPMatchDetailViewController.mm"
-         timestampString = "385757347.051081"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "126"
-         endingLineNumber = "126"
+         startingLineNumber = "156"
+         endingLineNumber = "156"
          landmarkName = "-initWithSelectedMach"
          landmarkType = "5">
       </FileBreakpoint>
@@ -656,11 +656,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/MPMatchDetailViewController.mm"
-         timestampString = "385757347.051081"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "125"
-         endingLineNumber = "125"
+         startingLineNumber = "155"
+         endingLineNumber = "155"
          landmarkName = "-initWithSelectedMach"
          landmarkType = "5">
       </FileBreakpoint>
@@ -669,12 +669,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/MPMatchDetailViewController.mm"
-         timestampString = "385757347.051081"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "489"
-         endingLineNumber = "489"
-         landmarkName = "-prepareForSegue:sender:"
+         startingLineNumber = "520"
+         endingLineNumber = "520"
+         landmarkName = "-leaveNotInTurnButtonAction:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -799,11 +799,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/AppDelegate.m"
-         timestampString = "385418813.180003"
+         timestampString = "385940645.44873"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "87"
-         endingLineNumber = "87"
+         startingLineNumber = "95"
+         endingLineNumber = "95"
          landmarkName = "-application:didFinishLaunchingWithOptions:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -812,11 +812,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ConfigViewController.m"
-         timestampString = "385527881.425288"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "269"
-         endingLineNumber = "269"
+         startingLineNumber = "272"
+         endingLineNumber = "272"
          landmarkName = "-paymentQueueRestoreCompletedTransactionsFinished:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -825,11 +825,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ChatViewController.m"
-         timestampString = "385758699.756196"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "127"
-         endingLineNumber = "127"
+         startingLineNumber = "158"
+         endingLineNumber = "158"
          landmarkName = "-loadLocalChat"
          landmarkType = "5">
       </FileBreakpoint>
@@ -838,11 +838,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ChatViewController.m"
-         timestampString = "385758699.756196"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "165"
-         endingLineNumber = "165"
+         startingLineNumber = "196"
+         endingLineNumber = "196"
          landmarkName = "-textFieldShouldReturn:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -851,11 +851,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ChatViewController.m"
-         timestampString = "385758699.756196"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "166"
-         endingLineNumber = "166"
+         startingLineNumber = "197"
+         endingLineNumber = "197"
          landmarkName = "-textFieldShouldReturn:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -864,11 +864,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ChatViewController.m"
-         timestampString = "385758699.756196"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "67"
-         endingLineNumber = "67"
+         startingLineNumber = "93"
+         endingLineNumber = "93"
          landmarkName = "-viewWillAppear:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -877,11 +877,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ChatViewController.m"
-         timestampString = "385758699.756196"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "184"
-         endingLineNumber = "184"
+         startingLineNumber = "215"
+         endingLineNumber = "215"
          landmarkName = "-textFieldShouldReturn:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -890,11 +890,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ChatViewController.m"
-         timestampString = "385758699.756196"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "241"
-         endingLineNumber = "241"
+         startingLineNumber = "279"
+         endingLineNumber = "279"
          landmarkName = "-tableView:heightForRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -903,12 +903,38 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Numzle/ChatViewController.m"
-         timestampString = "385758699.756196"
+         timestampString = "385941186.334986"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "239"
-         endingLineNumber = "239"
+         startingLineNumber = "277"
+         endingLineNumber = "277"
          landmarkName = "-tableView:heightForRowAtIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Numzle/MPMatchDetailViewController.h"
+         timestampString = "385939773.565371"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
+         landmarkName = "chatBadg"
+         landmarkType = "19">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Numzle/MPMatchDetailViewController.mm"
+         timestampString = "385941186.334986"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "107"
+         endingLineNumber = "107"
+         landmarkName = "-retriveChatInfo"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -12,7 +12,13 @@
 #import "MPGameOverViewController.h"
 #import "CCViewController.h"
 #import <Parse/Parse.h>
+#import "MKNumberBadgeView.h"
+
+
 @interface MPMatchDetailViewController : UIViewController<CCViewControllerDelegate>
+
+
+@property (retain) IBOutlet MKNumberBadgeView* chatBadg;
 
 @property(strong,nonatomic)GKTurnBasedMatch * selectedMatch;
 
@@ -49,5 +55,6 @@
 - (IBAction)leaveNotInTurnButtonAction:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *leaveNotInTurnButton;
 - (IBAction)chatButtonAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *chatButton;
 
 @end

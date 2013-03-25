@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
-@interface ChatViewController : UIViewController<UITextFieldDelegate>
+
+#import <iAd/iAd.h>
+
+
+@interface ChatViewController : UIViewController<UITextFieldDelegate,ADBannerViewDelegate>
 {
     NSMutableArray          * chatData;
     PF_EGORefreshTableHeaderView *_refreshHeaderView;
@@ -25,4 +29,6 @@
 -(void)initWithChatIdentifier:(NSString*)identifier andPlayerName:(NSDictionary*)players;
 @property (weak, nonatomic) IBOutlet UITextField *tfEntry;
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bannerVerticalSpace;
+@property (weak, nonatomic) IBOutlet ADBannerView *bannerView;
 @end

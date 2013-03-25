@@ -13,6 +13,8 @@
 #import "SoundManager.h"
 #import "FaceBookHelper.h"
 #import "GAI.h"
+#import "Appirater.h"
+
 @interface ConfigViewController ()
 
 @end
@@ -237,6 +239,7 @@
                 // Log details of the failure
                 [[ParseHelper sharedInstance]setAvatar:avatarID forPlayerID:[GameCenterHelper sharedInstance].currentPlayerID];
             }
+            [Appirater userDidSignificantEvent:YES];
         }];
     }
     
