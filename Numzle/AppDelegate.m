@@ -15,6 +15,7 @@
 #import "Appirater.h"
 
 #import "GAI.h"
+#import "Chartboost.h"
 
 #import "FaceBookHelper.h"
 
@@ -120,9 +121,13 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    [FBSession.activeSession handleDidBecomeActive];
-
+     [FBSession.activeSession handleDidBecomeActive];
+    Chartboost *cb = [Chartboost sharedChartboost];
+    cb.appId = @"515292e517ba47ed1b000001";
+    cb.appSignature = @"14ae2dbf78ff042f9f48c66bc6a63788b62bc02b";
+    // Begin a user session
+    [cb startSession];
+    // Show an interstitial
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

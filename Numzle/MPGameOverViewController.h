@@ -8,6 +8,7 @@
 
 //#import "ViewController.h"
 #import "GameManager.h"
+#import "Chartboost.h"
 
 @class MPGameOverViewController;
 
@@ -18,7 +19,7 @@
 @end
 
 
-@interface MPGameOverViewController : UIViewController
+@interface MPGameOverViewController : UIViewController<ChartboostDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *operationCountLabel;
 @property (weak, nonatomic) IBOutlet UILabel *punteggioLabel;

@@ -245,6 +245,8 @@
 		B5B0718616CEE2FA0090A5D0 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B0718516CEE2FA0090A5D0 /* ConfigViewController.m */; };
 		B5B071C216CEE3A30090A5D0 /* SelectAvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B071C116CEE3A30090A5D0 /* SelectAvatarViewController.m */; };
 		B5B071C516CEE6850090A5D0 /* avatarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B071C416CEE6850090A5D0 /* avatarCell.m */; };
+		B5BD38661702CB24005C54B1 /* libChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BD38641702CB24005C54B1 /* libChartboost.a */; };
+		B5BD38671702CB24005C54B1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5BD38651702CB24005C54B1 /* README.md */; };
 		B5CB328616F8FDEC008F404A /* helveticaCondRosso20-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = B5CB328216F8FDEC008F404A /* helveticaCondRosso20-hd.fnt */; };
 		B5CB328716F8FDEC008F404A /* helveticaCondRosso20-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CB328316F8FDEC008F404A /* helveticaCondRosso20-hd.png */; };
 		B5CB328816F8FDEC008F404A /* helveticaCondRosso20.fnt in Resources */ = {isa = PBXBuildFile; fileRef = B5CB328416F8FDEC008F404A /* helveticaCondRosso20.fnt */; };
@@ -1002,6 +1004,10 @@
 		B5B071C116CEE3A30090A5D0 /* SelectAvatarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAvatarViewController.m; sourceTree = "<group>"; };
 		B5B071C316CEE6840090A5D0 /* avatarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avatarCell.h; sourceTree = "<group>"; };
 		B5B071C416CEE6850090A5D0 /* avatarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = avatarCell.m; sourceTree = "<group>"; };
+		B5BD38621702CB24005C54B1 /* CBAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAnalytics.h; sourceTree = "<group>"; };
+		B5BD38631702CB24005C54B1 /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
+		B5BD38641702CB24005C54B1 /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libChartboost.a; sourceTree = "<group>"; };
+		B5BD38651702CB24005C54B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		B5CB328216F8FDEC008F404A /* helveticaCondRosso20-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "helveticaCondRosso20-hd.fnt"; sourceTree = "<group>"; };
 		B5CB328316F8FDEC008F404A /* helveticaCondRosso20-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helveticaCondRosso20-hd.png"; sourceTree = "<group>"; };
 		B5CB328416F8FDEC008F404A /* helveticaCondRosso20.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = helveticaCondRosso20.fnt; sourceTree = "<group>"; };
@@ -1118,6 +1124,7 @@
 				653A6C9B16CC1BC600C1E702 /* Parse.framework in Frameworks */,
 				B5A3A1B416EE827800D5BB83 /* FacebookSDK.framework in Frameworks */,
 				B541ED2A16F7CFB000F1436D /* libGoogleAnalytics.a in Frameworks */,
+				B5BD38661702CB24005C54B1 /* libChartboost.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1559,6 +1566,7 @@
 		B587E0E31700FB87003B3D62 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				B5BD38611702CB24005C54B1 /* Chartboost */,
 				B587E0E41700FBAE003B3D62 /* appirater */,
 				B587E0DF1700F475003B3D62 /* MKNumberBadgeView */,
 			);
@@ -1605,6 +1613,17 @@
 				B5A3A15116EE5D9300D5BB83 /* buttonUguale-hd.png */,
 			);
 			name = hd;
+			sourceTree = "<group>";
+		};
+		B5BD38611702CB24005C54B1 /* Chartboost */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD38621702CB24005C54B1 /* CBAnalytics.h */,
+				B5BD38631702CB24005C54B1 /* Chartboost.h */,
+				B5BD38641702CB24005C54B1 /* libChartboost.a */,
+				B5BD38651702CB24005C54B1 /* README.md */,
+			);
+			path = Chartboost;
 			sourceTree = "<group>";
 		};
 		B5F09E3D16C41FB500000E47 = {
@@ -2493,6 +2512,7 @@
 				B587E1071700FBAE003B3D62 /* Appirater.podspec in Resources */,
 				B587E1081700FBAE003B3D62 /* AppiraterLocalizable.strings in Resources */,
 				B587E1091700FBAE003B3D62 /* README.md in Resources */,
+				B5BD38671702CB24005C54B1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2678,6 +2698,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Numzle\"",
+					"\"$(SRCROOT)/Numzle/Chartboost\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos6.1;
@@ -2703,6 +2724,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Numzle\"",
+					"\"$(SRCROOT)/Numzle/Chartboost\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1FD27C45-D390-48E6-AEF1-1BAFF704317A";

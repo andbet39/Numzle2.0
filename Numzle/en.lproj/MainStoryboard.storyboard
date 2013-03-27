@@ -541,7 +541,7 @@ after 3 turns win the match.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="tableCellBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="dAO-sE-OMF"/>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="jZv-MJ-R44">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=" " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="jZv-MJ-R44">
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="203" id="Hge-Gi-bHy"/>
@@ -551,7 +551,7 @@ after 3 turns win the match.</string>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4P-69-NNH">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=" " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4P-69-NNH">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="173" id="1A0-H3-GXo"/>
                                                         <constraint firstAttribute="height" constant="21" id="1ev-tv-fxm"/>
@@ -827,7 +827,7 @@ after 3 turns win the match.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CX6-Jh-C18"/>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRd-Wg-Otn">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRd-Wg-Otn">
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="bng-uG-Z9D"/>
                                                         <constraint firstAttribute="width" constant="269" id="moR-k2-Y3n"/>
@@ -935,7 +935,7 @@ after 3 turns win the match.</string>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backGroundUIVIEW.png" translatesAutoresizingMaskIntoConstraints="NO" id="ACk-1L-px8"/>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="MatchBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="M9F-aA-HcK"/>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XwN-GP-9RD">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XwN-GP-9RD">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="105" id="4PK-0h-rXn"/>
                                 </constraints>
@@ -943,7 +943,7 @@ after 3 turns win the match.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIL-3U-z0F">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIL-3U-z0F">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="SAj-FQ-5KJ"/>
                                     <constraint firstAttribute="width" constant="105" id="vmf-uw-yYQ"/>
@@ -995,7 +995,6 @@ after 3 turns win the match.</string>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6F-oU-hEq">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="BAk-Xq-M3f"/>
-                                    <constraint firstAttribute="width" constant="78" id="YTy-lJ-n79"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1018,16 +1017,17 @@ after 3 turns win the match.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-nW-Qwn">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-nW-Qwn">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" type="user" id="8PO-tZ-ZMM"/>
+                                    <constraint firstAttribute="width" constant="75" id="Dhr-jj-HiM"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sf-Tg-tfK">
-                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="25"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="0sf-Tg-tfK">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1163,25 +1163,26 @@ after 3 turns win the match.</string>
                             <constraint firstItem="5Uj-C0-lAv" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="363" type="user" id="13E-Eh-yL4"/>
                             <constraint firstItem="nos-hg-o2Z" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="256" type="user" id="2CB-m2-tzj"/>
                             <constraint firstItem="BDn-Or-lID" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="24" id="2IX-qM-2pI"/>
-                            <constraint firstItem="ACk-1L-px8" firstAttribute="centerX" secondItem="M9F-aA-HcK" secondAttribute="centerX" type="default" id="3Th-rk-Ovn"/>
                             <constraint firstItem="0sf-Tg-tfK" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="325" type="user" id="4AS-E0-hO1"/>
                             <constraint firstAttribute="bottom" secondItem="ACk-1L-px8" secondAttribute="bottom" type="user" id="4lg-NX-mGk"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="leading" secondItem="an8-9T-obh" secondAttribute="leading" type="default" id="4ye-20-LCO"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="leading" secondItem="luE-07-14V" secondAttribute="leading" type="default" id="50B-JT-zce"/>
                             <constraint firstItem="0sf-Tg-tfK" firstAttribute="trailing" secondItem="06f-uZ-84T" secondAttribute="trailing" type="default" id="50d-Za-oeV"/>
-                            <constraint firstItem="QIC-aF-QzF" firstAttribute="leading" secondItem="24j-7w-hZ6" secondAttribute="leading" type="default" id="6H1-Jm-JZS"/>
+                            <constraint firstItem="Fea-nW-Qwn" firstAttribute="trailing" secondItem="G6F-oU-hEq" secondAttribute="trailing" type="default" id="8Sw-3t-XEX"/>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="leading" secondItem="7RH-PN-TOK" secondAttribute="leading" type="default" id="8aH-RT-0DJ"/>
                             <constraint firstItem="nos-hg-o2Z" firstAttribute="leading" secondItem="4gi-7J-7z7" secondAttribute="leading" type="default" id="8o0-r5-SrX"/>
                             <constraint firstItem="VSV-MS-hm0" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="363" type="user" id="9ks-Nn-mwe"/>
                             <constraint firstItem="M9F-aA-HcK" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="11" id="A9K-s0-Lq8"/>
+                            <constraint firstItem="G6F-oU-hEq" firstAttribute="leading" secondItem="Q03-D5-6yf" secondAttribute="leading" constant="27" id="AB0-tb-MLq"/>
                             <constraint firstItem="UIL-3U-z0F" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="71" id="AI7-bQ-LJE"/>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="baseline" secondItem="yoM-O7-rqB" secondAttribute="baseline" type="default" id="Aij-tG-hIH"/>
+                            <constraint firstItem="5Uj-C0-lAv" firstAttribute="bottom" secondItem="268-no-gEl" secondAttribute="bottom" type="default" id="DTk-Kc-5he"/>
                             <constraint firstItem="an8-9T-obh" firstAttribute="baseline" secondItem="G6F-oU-hEq" secondAttribute="baseline" type="default" id="G7z-DH-qY9"/>
+                            <constraint firstItem="06f-uZ-84T" firstAttribute="leading" secondItem="0sf-Tg-tfK" secondAttribute="leading" type="default" id="Ihp-4w-Ehz"/>
                             <constraint firstItem="06f-uZ-84T" firstAttribute="baseline" secondItem="4gi-7J-7z7" secondAttribute="baseline" type="default" id="JUq-ih-WCU"/>
                             <constraint firstItem="G6F-oU-hEq" firstAttribute="centerX" secondItem="eyE-4p-5Jh" secondAttribute="centerX" type="default" id="LpW-nU-Tmr"/>
+                            <constraint firstItem="24j-7w-hZ6" firstAttribute="leading" secondItem="QIC-aF-QzF" secondAttribute="leading" type="default" id="Opi-vh-Dfg"/>
                             <constraint firstItem="06f-uZ-84T" firstAttribute="trailing" secondItem="w2D-R4-x5Y" secondAttribute="trailing" type="default" id="Owe-fw-UTS"/>
-                            <constraint firstItem="268-no-gEl" firstAttribute="bottom" secondItem="24j-7w-hZ6" secondAttribute="bottom" type="default" id="P3n-eV-fKF"/>
-                            <constraint firstItem="4gi-7J-7z7" firstAttribute="trailing" secondItem="Fea-nW-Qwn" secondAttribute="trailing" type="default" id="P8T-2L-Ozb"/>
                             <constraint firstItem="M9F-aA-HcK" firstAttribute="trailing" secondItem="XwN-GP-9RD" secondAttribute="trailing" type="default" id="Pd2-WT-Iba"/>
                             <constraint firstItem="4gi-7J-7z7" firstAttribute="leading" secondItem="v1b-CB-IGB" secondAttribute="leading" type="default" id="Q7N-eg-G3f"/>
                             <constraint firstItem="5Uj-C0-lAv" firstAttribute="top" secondItem="24j-7w-hZ6" secondAttribute="top" type="user" id="QmB-LW-HZZ"/>
@@ -1189,24 +1190,24 @@ after 3 turns win the match.</string>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="trailing" secondItem="7RH-PN-TOK" secondAttribute="trailing" type="default" id="SMc-SU-s47"/>
                             <constraint firstItem="QIC-aF-QzF" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="363" type="user" id="SUN-eu-MT0"/>
                             <constraint firstItem="dIe-fE-sCF" firstAttribute="centerX" secondItem="BDn-Or-lID" secondAttribute="centerX" type="default" id="So1-VO-N2E"/>
-                            <constraint firstItem="5Uj-C0-lAv" firstAttribute="bottom" secondItem="24j-7w-hZ6" secondAttribute="bottom" type="default" id="UGU-H6-RbG"/>
                             <constraint firstItem="v1b-CB-IGB" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="301" type="user" id="UiK-Dn-CuG"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="trailing" secondItem="luE-07-14V" secondAttribute="trailing" type="default" id="Upm-g2-FfD"/>
-                            <constraint firstItem="5Uj-C0-lAv" firstAttribute="leading" secondItem="24j-7w-hZ6" secondAttribute="leading" type="default" id="WI8-cu-cpw"/>
+                            <constraint firstItem="0sf-Tg-tfK" firstAttribute="trailing" secondItem="FfT-Xi-eVI" secondAttribute="trailing" type="default" id="XUj-VO-akY"/>
                             <constraint firstItem="v1b-CB-IGB" firstAttribute="centerX" secondItem="268-no-gEl" secondAttribute="centerX" type="default" id="Xga-9W-oIv"/>
-                            <constraint firstItem="VSV-MS-hm0" firstAttribute="trailing" secondItem="0sf-Tg-tfK" secondAttribute="trailing" type="default" id="Xqg-VI-BgP"/>
+                            <constraint firstItem="G6F-oU-hEq" firstAttribute="leading" secondItem="QIC-aF-QzF" secondAttribute="leading" type="default" id="Yft-hH-zuz"/>
                             <constraint firstItem="eyE-4p-5Jh" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="232" type="user" id="ZfU-ug-tmV"/>
                             <constraint firstItem="XwN-GP-9RD" firstAttribute="centerX" secondItem="7RH-PN-TOK" secondAttribute="centerX" type="default" id="Znc-bF-IBR"/>
                             <constraint firstItem="G6F-oU-hEq" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="189" type="user" id="ZoN-s6-V9D"/>
                             <constraint firstItem="luE-07-14V" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="280" type="user" id="aZQ-Xm-tYB"/>
                             <constraint firstItem="YsF-AX-JdT" firstAttribute="leading" secondItem="eyE-4p-5Jh" secondAttribute="leading" type="default" id="aee-1U-MeU"/>
-                            <constraint firstItem="UIL-3U-z0F" firstAttribute="centerX" secondItem="G6F-oU-hEq" secondAttribute="centerX" type="default" id="bC1-O0-cto"/>
                             <constraint firstItem="FfT-Xi-eVI" firstAttribute="top" secondItem="VSV-MS-hm0" secondAttribute="top" type="default" id="bJU-2M-g4f"/>
                             <constraint firstItem="UIL-3U-z0F" firstAttribute="baseline" secondItem="XwN-GP-9RD" secondAttribute="baseline" type="default" id="cKj-HP-Pkh"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FfT-Xi-eVI" secondAttribute="trailing" constant="20" type="user" id="cRA-Qt-fnV"/>
                             <constraint firstItem="268-no-gEl" firstAttribute="top" secondItem="24j-7w-hZ6" secondAttribute="top" type="user" id="czE-3m-Vpf"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="trailing" secondItem="an8-9T-obh" secondAttribute="trailing" type="default" id="dDD-R8-HYT"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="232" type="user" id="eRl-ZZ-gEc"/>
+                            <constraint firstItem="5Uj-C0-lAv" firstAttribute="leading" secondItem="QIC-aF-QzF" secondAttribute="leading" type="default" id="elQ-nS-Cra"/>
+                            <constraint firstItem="ACk-1L-px8" firstAttribute="centerX" secondItem="BDn-Or-lID" secondAttribute="centerX" type="default" id="fwA-2E-BsC"/>
                             <constraint firstItem="24j-7w-hZ6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Q03-D5-6yf" secondAttribute="leading" constant="20" type="user" id="g0P-K8-ba3"/>
                             <constraint firstItem="nos-hg-o2Z" firstAttribute="trailing" secondItem="YsF-AX-JdT" secondAttribute="trailing" type="default" id="gZR-SM-tX1"/>
                             <constraint firstItem="an8-9T-obh" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="189" type="user" id="giJ-Ad-jUD"/>
@@ -1217,7 +1218,7 @@ after 3 turns win the match.</string>
                             <constraint firstItem="FfT-Xi-eVI" firstAttribute="leading" secondItem="VSV-MS-hm0" secondAttribute="leading" type="default" id="lu5-cb-iZt"/>
                             <constraint firstItem="06f-uZ-84T" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="277" type="user" id="m7D-Zx-w5a"/>
                             <constraint firstItem="w2D-R4-x5Y" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="232" type="user" id="nfU-W1-k99"/>
-                            <constraint firstItem="0sf-Tg-tfK" firstAttribute="leading" secondItem="06f-uZ-84T" secondAttribute="leading" type="default" id="pMH-ZV-G0d"/>
+                            <constraint firstItem="dIe-fE-sCF" firstAttribute="centerX" secondItem="M9F-aA-HcK" secondAttribute="centerX" type="default" id="ptZ-wN-C8H"/>
                             <constraint firstItem="ACk-1L-px8" firstAttribute="leading" secondItem="Q03-D5-6yf" secondAttribute="leading" type="default" id="q8P-iv-nYe"/>
                             <constraint firstItem="dIe-fE-sCF" firstAttribute="top" secondItem="Q03-D5-6yf" secondAttribute="top" constant="145" id="rfu-Rq-Cug"/>
                             <constraint firstItem="QIC-aF-QzF" firstAttribute="top" secondItem="24j-7w-hZ6" secondAttribute="top" type="user" id="rqp-W7-v55"/>
@@ -1233,8 +1234,6 @@ after 3 turns win the match.</string>
                             <constraint firstItem="v1b-CB-IGB" firstAttribute="leading" secondItem="Fea-nW-Qwn" secondAttribute="leading" type="default" id="xjN-zG-QKc"/>
                             <constraint firstItem="UIL-3U-z0F" firstAttribute="leading" secondItem="Q03-D5-6yf" secondAttribute="leading" constant="13" id="ySV-ea-FY4"/>
                             <constraint firstItem="yoM-O7-rqB" firstAttribute="baseline" secondItem="eyE-4p-5Jh" secondAttribute="baseline" type="default" id="yv7-8T-jTp"/>
-                            <constraint firstItem="BDn-Or-lID" firstAttribute="centerX" secondItem="M9F-aA-HcK" secondAttribute="centerX" type="default" id="zjE-Vn-yV7"/>
-                            <constraint firstItem="QIC-aF-QzF" firstAttribute="leading" secondItem="G6F-oU-hEq" secondAttribute="leading" type="default" id="zsI-H2-5uq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AoB-JM-UEl"/>
@@ -1701,6 +1700,230 @@ after 3 turns win the match.</string>
         <image name="tutorialPage2.png" width="300" height="405"/>
         <image name="welcomeToNumzle.png" width="261" height="106"/>
     </resources>
+    <classes>
+        <class className="ButtonsCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ButtonsCell.h"/>
+            <relationships>
+                <relationship kind="action" name="friendButton:"/>
+                <relationship kind="action" name="randomButton:"/>
+            </relationships>
+        </class>
+        <class className="CCViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CCViewController.h"/>
+        </class>
+        <class className="ChatCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChatCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageBackGround" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="textString" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="userLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ChatViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChatViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="bannerVerticalSpace" candidateClass="NSLayoutConstraint"/>
+                <relationship kind="outlet" name="bannerView" candidateClass="ADBannerView"/>
+                <relationship kind="outlet" name="chatTable" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="tfEntry" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ConfigViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ConfigViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="SoundButton:"/>
+                <relationship kind="action" name="facebookButton:"/>
+                <relationship kind="action" name="restorInAppAction:"/>
+                <relationship kind="action" name="selectAvatarButtonAction:"/>
+                <relationship kind="action" name="selectAvatarSet1:"/>
+                <relationship kind="action" name="selectAvatarSet2:"/>
+                <relationship kind="outlet" name="facebookSwith" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="restoreInApp" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="soundSwitch" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+        <class className="FacebookFriendCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FacebookFriendCell.h"/>
+            <relationships>
+                <relationship kind="action" name="inviteButton:"/>
+                <relationship kind="outlet" name="backgroundCellImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="inviteButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="FirstViewController" superclassName="ViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+        </class>
+        <class className="GAITrackedViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GAITrackedViewController.h"/>
+        </class>
+        <class className="GameOverViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GameOverViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="menuButton:"/>
+                <relationship kind="outlet" name="navigationBar" candidateClass="UINavigationBar"/>
+                <relationship kind="outlet" name="numberLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="numberToHitLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="operationCountLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="punteggioLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="totalPointLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="InviteFriendViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/InviteFriendViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="backgroundCellImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="friendsTableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="inviteButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="MKNumberBadgeView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MKNumberBadgeView.h"/>
+        </class>
+        <class className="MPGameOverViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPGameOverViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="endTurn:"/>
+                <relationship kind="outlet" name="navigationBar" candidateClass="UINavigationBar"/>
+                <relationship kind="outlet" name="numberLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="numberToHitLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="operationCountLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="punteggioLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="totalPointLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MPMatchDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPMatchDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="acceptButtonAction:"/>
+                <relationship kind="action" name="backButtonAction:"/>
+                <relationship kind="action" name="chatButtonAction:"/>
+                <relationship kind="action" name="declineButtonAction:"/>
+                <relationship kind="action" name="leaveButton:"/>
+                <relationship kind="action" name="leaveNotInTurnButtonAction:"/>
+                <relationship kind="action" name="playButton:"/>
+                <relationship kind="outlet" name="T1P1Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="T1P2Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="T2P1Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="T2P2Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="T3P1Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="T3P2Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="acceptButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="backButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="chatBadg" candidateClass="MKNumberBadgeView"/>
+                <relationship kind="outlet" name="chatButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="declineButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="leaveButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="leaveNotInTurnButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="p1TotalLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="p2TotalLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="player1Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="player2Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="turn1Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="turn2Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="turn3Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="winLostLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MatchCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MatchCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="backImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="matchMessageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="player1Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="player2Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="searchingIndicator" candidateClass="UIActivityIndicatorView"/>
+            </relationships>
+        </class>
+        <class className="MultiPlayerInterfaceViewController" superclassName="GAITrackedViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MultiPlayerInterfaceViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="endAllMatch:"/>
+                <relationship kind="action" name="findMatch:"/>
+                <relationship kind="action" name="inviteFriendButton:"/>
+                <relationship kind="action" name="reloadDataButton:"/>
+                <relationship kind="action" name="removeActionButton:"/>
+                <relationship kind="outlet" name="bannerVerticalSpace" candidateClass="NSLayoutConstraint"/>
+                <relationship kind="outlet" name="bannerView" candidateClass="ADBannerView"/>
+                <relationship kind="outlet" name="layoutBannerToTableview" candidateClass="NSLayoutConstraint"/>
+                <relationship kind="outlet" name="matchTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="OperationCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OperationCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageBackground" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="operationLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="punteggioLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="PlayerCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PlayerCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="backgroundCellImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="RootViewController" superclassName="UIPageViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RootViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="goback:"/>
+            </relationships>
+        </class>
+        <class className="ScoreViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScoreViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="viewLeaderBoard:"/>
+            </relationships>
+        </class>
+        <class className="SecondViewController" superclassName="ViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="Helplabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="SelectAvatarViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SelectAvatarViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="collectionView" candidateClass="UICollectionView"/>
+            </relationships>
+        </class>
+        <class className="ThirdViewController" superclassName="ViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="helplabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="UICollectionReusableView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
+        </class>
+        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
+        </class>
+        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
+        </class>
+        <class className="ViewController" superclassName="GAITrackedViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buyProVersion:"/>
+                <relationship kind="action" name="fbLoaginButton:"/>
+                <relationship kind="action" name="goConfigAction:"/>
+                <relationship kind="action" name="playButton:"/>
+                <relationship kind="action" name="postAction:"/>
+                <relationship kind="action" name="postFacebookwin:"/>
+                <relationship kind="action" name="setAvatar:"/>
+                <relationship kind="action" name="viewLeaderboardAction:"/>
+            </relationships>
+        </class>
+        <class className="avatarCell" superclassName="UICollectionViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/avatarCell.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

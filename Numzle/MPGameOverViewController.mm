@@ -10,6 +10,8 @@
 #import "OperationCell.h"
 #import "GameCenterHelper.h"
 #import "ParseHelper.h"
+#import "InAppHelper.h"
+
 
 @interface MPGameOverViewController ()
 {
@@ -27,18 +29,21 @@
     
     UIImage * navigationBarImage =[UIImage imageNamed:@"navigationBarWithTitle"];
     [navigationBar setBackgroundImage:navigationBarImage forBarMetrics:UIBarMetricsDefault];
+     
     
-   // [numberLabel setFont:[UIFont fontWithName:@"Segoe Condensed" size:18]];
-    //[totalPointLabel setFont:[UIFont fontWithName:@"Segoe Condensed" size:18]];
-    //[punteggioLabel setFont:[UIFont fontWithName:@"Segoe Semibold" size:20]];
-    //[operationCountLabel setFont:[UIFont fontWithName:@"Segoe Semibold" size:20]];
+}
 
-    
-    
-    //NAsconde il bannerview
-    //bannerView.frame = CGRectOffset(bannerView.frame, 0, -bannerView.frame.size.height);
-    
-    
+
+- (BOOL)shouldDisplayInterstitial:(NSString *)location;
+{
+    if ([InAppHelper sharedInstance].isPremiumVersion) {
+        
+        
+        return NO;
+        
+    }
+    return YES;
+
 }
 
 - (void)viewDidLoad
@@ -51,7 +56,13 @@
     [punteggioLabel setText:[NSString stringWithFormat:@"%d",[gm getGrandTotal]]];
     
     
+    if ([InAppHelper sharedInstance].isPremiumVersion) {
+        
   
+        Chartboost *cb = [Chartboost sharedChartboost];
+        [cb showInterstitial];
+      
+    }
     
     
     [operationCountLabel setText:[NSString stringWithFormat:@"%d",[gm getOperationNumber]]];
@@ -61,17 +72,18 @@
     MatchDataClass * currentMatchData = [GameManager sharedInstance].currentMathData ;
     
     int turnNumber = [currentMatchData.turnNumber intValue];
+    
+    
+    
 
     if ([[GKLocalPlayer localPlayer].playerID isEqualToString: currentMatchData.p1ID]) {
         [currentMatchData.p1Results addObject:[NSString stringWithFormat:@"%d",[gm getGrandTotal]]];
-        //[GameCenterHelper sharedInstance].currentMatch.message=[NSString stringWithFormat:@"Player 1 ha fatto : %d punti",[gm getGrandTotal]];
-        
+           
     }
     
     if ([[GKLocalPlayer localPlayer].playerID isEqualToString: currentMatchData.p2ID]) {
         [currentMatchData.p2Results addObject:[NSString stringWithFormat:@"%d",[gm getGrandTotal]]];
-       // [GameCenterHelper sharedInstance].currentMatch.message=[NSString stringWithFormat:@"Player 2 ha fatto : %d punti",[gm getGrandTotal]];
-        
+           
     }
     
      turnNumber++;
@@ -86,6 +98,7 @@
     
     if ([currentMatchData.p2Results count]>=NUMBER_OF_TURN && [currentMatchData.p1Results count]>=NUMBER_OF_TURN){
     
+        
         [self endCurrentGame:currentMatchData];
         
     
@@ -176,18 +189,7 @@
         
     }
     
-    /*//Se sono il player 1 invia il punteggio1
-    if ([[GKLocalPlayer localPlayer].playerID isEqualToString:data.p1ID]) {
-        [[GameCenterHelper sharedInstance]reportScore:punteggio1 forLeaderboardID:kMultiplayerLeaderBoard];
-
-    }
-    //Se sono il player 2 invia il punteggio2
-
-    if ([[GKLocalPlayer localPlayer].playerID isEqualToString:data.p2ID]) {
-        [[GameCenterHelper sharedInstance]reportScore:punteggio2 forLeaderboardID:kMultiplayerLeaderBoard];
-        
-    }*/
-    
+     
     
 
     [[GameCenterHelper sharedInstance]sendEndGame:data forMatch:gm.currentMatch];
