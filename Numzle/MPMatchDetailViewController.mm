@@ -266,13 +266,14 @@
 {
     
         [selectedMatch loadMatchDataWithCompletionHandler: ^(NSData *matchData, NSError *error) {
+            
             if (matchData)
             {
                 
                 
                MatchDataClass * receivedData = (MatchDataClass*)[NSKeyedUnarchiver unarchiveObjectWithData: matchData];
                 
-                currentMatchData =receivedData;
+                currentMatchData = receivedData;
                 
                 if ([currentMatchData.p1Results count]>0) {
                     T1P1Label.text = [currentMatchData.p1Results objectAtIndex:0];

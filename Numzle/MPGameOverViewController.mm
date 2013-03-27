@@ -175,7 +175,7 @@
         
     }
     
-    if (playerWinner==2) {//Ha vinto il player 1
+    if (playerWinner==2) {//Ha vinto il player 2
         
         for (GKTurnBasedParticipant * player in [GameManager sharedInstance].currentMatch.participants) {
             if ([player.playerID isEqualToString:data.p2ID]) {

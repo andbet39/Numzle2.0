@@ -165,6 +165,9 @@
 		B50D80A116F359F400C0D965 /* avatar2Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B50D809B16F359F400C0D965 /* avatar2Btn@2x.png */; };
 		B50D80A216F359F400C0D965 /* avatar3Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B50D809C16F359F400C0D965 /* avatar3Btn.png */; };
 		B50D80A316F359F400C0D965 /* avatar3Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B50D809D16F359F400C0D965 /* avatar3Btn@2x.png */; };
+		B517882E1703A3E700BEE5B9 /* AchievementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B517882C1703A3E700BEE5B9 /* AchievementViewController.m */; };
+		B517882F1703A3E700BEE5B9 /* AchievementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B517882D1703A3E700BEE5B9 /* AchievementViewController.xib */; };
+		B534AF4A170373E80080E970 /* AchievementHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B534AF49170373E80080E970 /* AchievementHelper.m */; };
 		B541ED0F16F7C22600F1436D /* avatar1Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B541ED0D16F7C22600F1436D /* avatar1Btn.png */; };
 		B541ED1016F7C22600F1436D /* avatar1Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B541ED0E16F7C22600F1436D /* avatar1Btn@2x.png */; };
 		B541ED1616F7C77D00F1436D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B541ED1516F7C77D00F1436D /* icon.png */; };
@@ -888,6 +891,11 @@
 		B50D809B16F359F400C0D965 /* avatar2Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar2Btn@2x.png"; sourceTree = "<group>"; };
 		B50D809C16F359F400C0D965 /* avatar3Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar3Btn.png; sourceTree = "<group>"; };
 		B50D809D16F359F400C0D965 /* avatar3Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar3Btn@2x.png"; sourceTree = "<group>"; };
+		B517882B1703A3E700BEE5B9 /* AchievementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementViewController.h; sourceTree = "<group>"; };
+		B517882C1703A3E700BEE5B9 /* AchievementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementViewController.m; sourceTree = "<group>"; };
+		B517882D1703A3E700BEE5B9 /* AchievementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementViewController.xib; sourceTree = "<group>"; };
+		B534AF48170373E80080E970 /* AchievementHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementHelper.h; sourceTree = "<group>"; };
+		B534AF49170373E80080E970 /* AchievementHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementHelper.m; sourceTree = "<group>"; };
 		B541ED0D16F7C22600F1436D /* avatar1Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar1Btn.png; sourceTree = "<group>"; };
 		B541ED0E16F7C22600F1436D /* avatar1Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar1Btn@2x.png"; sourceTree = "<group>"; };
 		B541ED1516F7C77D00F1436D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
@@ -1261,6 +1269,8 @@
 				653A6CB516CC26C700C1E702 /* ParseHelper.m */,
 				65B6155D16D25974008FEDF9 /* FaceBookHelper.h */,
 				65B6155E16D25974008FEDF9 /* FaceBookHelper.m */,
+				B534AF48170373E80080E970 /* AchievementHelper.h */,
+				B534AF49170373E80080E970 /* AchievementHelper.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -1520,6 +1530,18 @@
 			name = matchDetail;
 			sourceTree = "<group>";
 		};
+		B534AF8417039E010080E970 /* Achievement */ = {
+			isa = PBXGroup;
+			children = (
+				653A6AF716C80C8500C1E702 /* ScoreViewController.h */,
+				653A6AF816C80C8500C1E702 /* ScoreViewController.m */,
+				B517882B1703A3E700BEE5B9 /* AchievementViewController.h */,
+				B517882C1703A3E700BEE5B9 /* AchievementViewController.m */,
+				B517882D1703A3E700BEE5B9 /* AchievementViewController.xib */,
+			);
+			name = Achievement;
+			sourceTree = "<group>";
+		};
 		B541ED2116F7CF9F00F1436D /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
@@ -1566,6 +1588,7 @@
 		B587E0E31700FB87003B3D62 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				B541ED2116F7CF9F00F1436D /* Analytics */,
 				B5BD38611702CB24005C54B1 /* Chartboost */,
 				B587E0E41700FBAE003B3D62 /* appirater */,
 				B587E0DF1700F475003B3D62 /* MKNumberBadgeView */,
@@ -1686,9 +1709,9 @@
 		B5F09E4F16C41FB600000E47 /* Numzle */ = {
 			isa = PBXGroup;
 			children = (
+				B534AF8417039E010080E970 /* Achievement */,
 				B587E0E31700FB87003B3D62 /* Library */,
 				B587E05C16FDD674003B3D62 /* Chat */,
-				B541ED2116F7CF9F00F1436D /* Analytics */,
 				B5F09E6116C41FB600000E47 /* MainStoryboard.storyboard */,
 				65B6169616D91A89008FEDF9 /* TutorialController */,
 				653A6C9616CC1AA000C1E702 /* Helper */,
@@ -1709,8 +1732,6 @@
 				659A825F16C4495100D65E79 /* MyTabelViewController.m */,
 				B5F09FEF16C533E100000E47 /* MatchDataClass.h */,
 				B5F09FF016C533E100000E47 /* MatchDataClass.m */,
-				653A6AF716C80C8500C1E702 /* ScoreViewController.h */,
-				653A6AF816C80C8500C1E702 /* ScoreViewController.m */,
 				B5B0718416CEE2FA0090A5D0 /* ConfigViewController.h */,
 				B5B0718516CEE2FA0090A5D0 /* ConfigViewController.m */,
 				B5B071C016CEE3A30090A5D0 /* SelectAvatarViewController.h */,
@@ -2513,6 +2534,7 @@
 				B587E1081700FBAE003B3D62 /* AppiraterLocalizable.strings in Resources */,
 				B587E1091700FBAE003B3D62 /* README.md in Resources */,
 				B5BD38671702CB24005C54B1 /* README.md in Resources */,
+				B517882F1703A3E700BEE5B9 /* AchievementViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2563,6 +2585,8 @@
 				B587E09B16FDE8A5003B3D62 /* ChatCell.m in Sources */,
 				B587E0E21700F475003B3D62 /* MKNumberBadgeView.m in Sources */,
 				B587E1061700FBAE003B3D62 /* Appirater.m in Sources */,
+				B534AF4A170373E80080E970 /* AchievementHelper.m in Sources */,
+				B517882E1703A3E700BEE5B9 /* AchievementViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

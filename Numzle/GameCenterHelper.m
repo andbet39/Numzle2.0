@@ -7,6 +7,8 @@
 //
 
 #import "GameCenterHelper.h"
+#import "AchievementHelper.h"
+
 
 
 @implementation GameCenterHelper
@@ -99,6 +101,9 @@ BOOL isGameCenterAPIAvailable()
                     self.currentPlayerID = localPlayer.playerID;
                     
                     [[GKTurnBasedEventHandler sharedTurnBasedEventHandler]setDelegate:self];
+                    
+                    [[AchievementHelper sharedInstance]loadAchievements];
+                    
                     
                 }
             } else {

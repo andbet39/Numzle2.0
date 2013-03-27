@@ -7,10 +7,13 @@
 //
 
 #import "ScoreViewController.h"
-#import "GameCenterHelper.h"
+
 
 
 @interface ScoreViewController ()
+
+
+@property(nonatomic,strong) MatchDataClass * testData ;
 
 @end
 
@@ -28,7 +31,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+
+    self.testData = [[MatchDataClass alloc]init];
+    
+    self.testData.p1ID=[GKLocalPlayer localPlayer].playerID;
+    self.testData.p2ID=@"g:000000000";
+    
+    
+    [self.testData.p1Results addObjectsFromArray :@[@"1000",@"1000",@"10000"] ];
+    [self.testData.p2Results addObjectsFromArray: @[@"2000",@"2000",@"3000"]];
+    
+
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,25 +51,25 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)viewLeaderBoard:(id)sender {
+
+
+
+
+
+- (IBAction)JobsAchievementAction:(id)sender {
     
-        GKGameCenterViewController *gameCenterController = [[GKGameCenterViewController alloc] init];
-        if (gameCenterController != nil)
-        {
-            gameCenterController.gameCenterDelegate = self;
-            gameCenterController.viewState = GKGameCenterViewControllerStateLeaderboards;
-            gameCenterController.leaderboardTimeScope = GKLeaderboardTimeScopeToday;
-            gameCenterController.leaderboardCategory = kSoloPlayerLeaderBoard;
-            [self presentViewController: gameCenterController animated: YES completion:nil];
-        }
+    [[AchievementHelper sharedInstance] checkForJobsAchievementInMatch:self.testData andPresenterViewController:self];
     
+ 
+}
+
+- (IBAction)resetAction:(id)sender {
+    
+    [[AchievementHelper sharedInstance]resetAchievements];
 }
 
 
-- (void)gameCenterViewControllerDidFinish:(GKGameCenterViewController *)gameCenterViewController
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
+- (void)viewDidUnload {
+    [super viewDidUnload];
 }
-
-
 @end

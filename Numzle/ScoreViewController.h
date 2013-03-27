@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <GameKit/GameKit.h>
+#import "GameCenterHelper.h"
+#import "AchievementHelper.h"
+ 
 
-@interface ScoreViewController : UIViewController<GKLeaderboardViewControllerDelegate>
-- (IBAction)viewLeaderBoard:(id)sender;
+@interface ScoreViewController : UIViewController
+- (IBAction)JobsAchievementAction:(id)sender;
+ 
+- (IBAction)resetAction:(id)sender;
 
 @end
